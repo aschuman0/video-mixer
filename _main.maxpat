@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -118,8 +118,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 516.75, 315.0, 197.25, 27.0 ],
-					"presentation_rect" : [ 775.75, 464.0, 0.0, 0.0 ]
+					"patching_rect" : [ 516.75, 315.0, 197.25, 27.0 ]
 				}
 
 			}
@@ -131,8 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 516.75, 288.0, 197.25, 27.0 ],
-					"presentation_rect" : [ 775.75, 437.0, 0.0, 0.0 ]
+					"patching_rect" : [ 516.75, 288.0, 197.25, 27.0 ]
 				}
 
 			}
@@ -144,8 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.75, 315.0, 197.25, 27.0 ],
-					"presentation_rect" : [ 685.75, 359.0, 0.0, 0.0 ]
+					"patching_rect" : [ 278.75, 315.0, 197.25, 27.0 ]
 				}
 
 			}
@@ -157,8 +154,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.75, 288.0, 197.25, 27.0 ],
-					"presentation_rect" : [ 685.75, 332.0, 0.0, 0.0 ]
+					"patching_rect" : [ 278.75, 288.0, 197.25, 27.0 ]
 				}
 
 			}
@@ -195,8 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.0, 315.0, 197.25, 27.0 ],
-					"presentation_rect" : [ 310.5, 351.0, 0.0, 0.0 ]
+					"patching_rect" : [ 57.0, 315.0, 197.25, 27.0 ]
 				}
 
 			}
@@ -233,7 +228,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1026.0, 742.0, 150.0, 33.0 ],
+					"patching_rect" : [ 714.0, 288.0, 150.0, 33.0 ],
 					"text" : "coarse vs fine adjustment sliders\n"
 				}
 
@@ -247,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 814.5, 163.5, 109.0, 20.0 ],
+					"patching_rect" : [ 983.5, 742.375, 109.0, 20.0 ],
 					"text" : "jit.window 640 360"
 				}
 
@@ -260,7 +255,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 654.0, 39.0, 157.0, 24.0 ]
+					"patching_rect" : [ 823.0, 617.875, 157.0, 24.0 ]
 				}
 
 			}
@@ -273,7 +268,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.0, 78.0, 109.0, 20.0 ],
+					"patching_rect" : [ 847.0, 656.875, 109.0, 20.0 ],
 					"text" : "scale 0. 127. -1. 1."
 				}
 
@@ -287,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 747.0, 107.0, 57.0, 18.0 ],
+					"patching_rect" : [ 916.0, 685.875, 57.0, 18.0 ],
 					"text" : "xfade $1"
 				}
 
@@ -301,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 814.5, 134.0, 52.0, 20.0 ],
+					"patching_rect" : [ 983.5, 712.875, 52.0, 20.0 ],
 					"text" : "jit.xfade"
 				}
 
@@ -739,21 +734,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "playback.maxpat",
-				"bootpath" : "/Users/aschuman/Dropbox/Max/video",
+				"bootpath" : "/Users/aschuman/Box Sync/Max/video",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "keyboard_ctrl.maxpat",
-				"bootpath" : "/Users/aschuman/Dropbox/Max/video",
+				"bootpath" : "/Users/aschuman/Box Sync/Max/video",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colurz.maxpat",
-				"bootpath" : "/Users/aschuman/Dropbox/Max/video",
+				"bootpath" : "/Users/aschuman/Box Sync/Max/video",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
